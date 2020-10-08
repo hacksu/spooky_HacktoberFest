@@ -1,0 +1,23 @@
+body {
+
+  background: url('https://i.pinimg.com/originals/fb/87/77/fb8777dca71c1ce1763b72335f2b1a32.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#halloween {
+	
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: fit-content;
+    font-size: 5em;
+    height: fit-content;
+	color:#dc0909;
+	font-family: 'Special Elite', cursive;
+}
