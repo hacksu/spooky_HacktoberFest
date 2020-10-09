@@ -11,7 +11,7 @@ body{
     background-image: url("https://wallpaperset.com/w/full/d/d/4/253410.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 h1
@@ -40,6 +40,20 @@ button {
     padding: 5px;
     border-radius: 3px;
     box-shadow: 0px 0px 3px 3px white;
+}
+
+#spooky-popup {
+    position:absolute;
+    padding: 10px;
+    top:calc(50vh - 100px);
+    left:calc(50vw - 150px);
+    border: solid red 5px;
+    border-radius: 30px;
+    width:300px;
+    height:200px;
+    background-color: black;
+    opacity:0;
+    transition: 1s ease-out opacity;
 }
 
 
